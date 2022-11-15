@@ -8,14 +8,14 @@ let assertEqual = function(actual, expected) {
 };
 // the actual === expected is NOT going to work because???
 //
-function tail (array) {
+let tail = function(array) {
   if (array.length > 1) { //
     return array.slice(1);
   }
-}
+};
 
 const result = tail(["Hello", "Lighthouse", "Labs"]); // First we provided an array for the tails
 assertEqual(result.length, 2); // Tested to see if the actual vs expected is TRUE (yes)
 assertEqual(result[0], "Lighthouse"); // Tested to see if the first element of the tail array is "Lighthouse" (yes)
-assertEqual(result[1], "Labs"); 
-assertEqual(result[0], "Labs") // This is FALSE thus, it is !== 
+assertEqual(result[1], "Labs");
+assertEqual(result[0], "Labs"); // This is FALSE thus, it is !==
