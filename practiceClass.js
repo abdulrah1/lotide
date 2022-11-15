@@ -9,7 +9,8 @@
 
 // 1) extract the command line arguments
 var args = process.argv.slice(2);
-console.log('arguments', args);
+console.log('arguments', args); // testing to see if the step works
+
 // 1a) Edge case: We need at least 2 arguments
 if (args.length < 2) {
   console.log('Error: Please enter at least two arguments') 
@@ -49,9 +50,10 @@ if (isNaN(Number(arg))) {
 // 2b) Edge case: If any arguement is not a number, output an error message.
 
 // 3) add them together
+console.log('total:', total);
 
 
 
 
 
-
+// It is effecient to create function 
