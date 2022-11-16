@@ -1,4 +1,4 @@
-var eqArrays = function(arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
 // do they have the same length? If not
   if (arr1.length !== arr2.length) {
     return false;

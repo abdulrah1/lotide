@@ -8,7 +8,7 @@ const assertArraysEqual = function(arr1, arr2) {
 
 
 
-var eqArrays = function(arr1, arr2) {
+const eqArrays = function(arr1, arr2) {
   // do they have the same length? If not
   if (arr1.length !== arr2.length) {
     return false;
@@ -45,17 +45,17 @@ const without = function(source, itemsToRemove) {
   for (let i = 0; i < source.length; i++) {
     if (source[i] !== itemsToRemove[i]) {
       //source.splice(i, 1);
-      output.push(source[i])
+      output.push(source[i]);
     }
   }
   return output;
 };
 
 
+// assertArraysEqual(without([1, 2, 3], [1]), [2, 3]);
 
-/*
+
 const words = ["hello", "world", "lighthouse"];
-without(words, ["lighthouse"]); // no need to capture return value for this test case
+// without(words, ["lighthouse"]); // no need to capture return value for this test case
 // Make sure the original array was not altered by the without function
-assertArraysEqual(words, ["hello", "world", "lighthouse"]);
-*/
+assertArraysEqual(without(words, ["hello"]), ['world', 'lighthouse']);
