@@ -16,9 +16,9 @@ let assertEqual = function(actual, expected) {
 
 const findKeyByValue = function(anObject, aValue) {
 
-  // object.key takes the object (anObject) returns the object's keys as an array.
+  ///object.key takes the object (anObject) returns the object's keys as an array.
 
-  // const keys = Object.keys(anObject); // to use this must do for...of loop
+  const keys = Object.keys(anObject); // to use this must do for...of loop
 
   //should scan the object and return the first key which contains the given value.
   for (var key in anObject) {
