@@ -1,5 +1,5 @@
 // const head = require('../head'); // commented out since we are converting to use Mocha and Chai and it includes the code.
-const assertEqual = require('../assertEqual');
+const assertEqual = require('../assertEqual'); // do not need this anymore
 
 
 // converting headTest.js to use Mocha and Chai
