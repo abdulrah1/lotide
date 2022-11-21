@@ -20,6 +20,7 @@ let assertEqual = function(actual, expected) {
 
 };
 
+
 // exports the function fro this module
 module.exports = assertEqual;
 
@@ -27,7 +28,8 @@ module.exports = assertEqual;
 
 
 
-// even though these codes are not exported, they will still run when we call assertEqual function in the head.js
+// Below are Test Codes:
+
 //assertEqual('30','31');
 //assertEqual(20, 20);
 
