@@ -1,36 +1,9 @@
-const eqArrays = function(arr1, arr2) {
-  // do they have the same length? If not
-  if (arr1.length !== arr2.length) {
-    return false;
-  }
-
-
-  // do they have the same values? If not
-  for (let i = 0; i < arr1.length; i++) {
-    if (arr1[i] !== arr2[i]) {
-      return false;
-    }
-  }
-  return true;
-};
-
-
-const assertArrayEqual = function(arr1, arr2) {
-  if (eqArrays(arr1, arr2)) {
-    console.log(`Assertation Passed: ${arr1} === ${arr2}`);
-  } else {
-    console.log(`Assertation Failed: ${arr1} !== ${arr2}`);
-  }
-};
-
+const assertArraysEqual = require('./assertArraysEqual');
 
 
 
 
 // Implement middle which will take in an array and return the middle-most element(s) of the given array.
-
-
-
 
 const middle = function(array) {
   // middle function should return an array with only the middle element(s) of the provided array.
@@ -54,6 +27,21 @@ const middle = function(array) {
   return middleArr;
 };
 
-console.log(middle([10, 25, 30]));
 
+
+module.exports = middle;
+
+
+
+
+
+
+
+/////////////////////// Below are test codes:
+/*
+assertArraysEqual(middle([10, 25, 30, 40]), [25, 30]); // PASS
+assertArraysEqual(middle([10, 25, 30, 40, 60]), [25]); // FAIL
+assertArraysEqual(middle(['Hello','Lighthouse', 'Labs']), ['Lighthouse']); // PASS
+assertArraysEqual(middle([10,25,30,40]),[25,10,30,40]); // FAIL
+*/
 
