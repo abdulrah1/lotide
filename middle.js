@@ -24,7 +24,7 @@ const middle = function(array) {
     middleArr = [array[Math.floor(middleIndex)]];
 
   }
-  return middleArr;
+  return middleArr; // returns it in an array
 };
 
 
