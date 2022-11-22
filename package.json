@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@afgunz/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A modified version of the Lodash JavaScript library that is created to utilize various functions in JavaScript",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -14,7 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/afgunz/lotide.git"
   },
-  "author": "",
+  "author": "Abdul Rahman",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/afgunz/lotide/issues"
