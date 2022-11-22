@@ -38,10 +38,10 @@ const obj = findKey({
   "Akelarre": { stars: 3 }
 }, x => x.stars === 2); 
 
-console.log(obj);
+//console.log(obj);
 
 
 
 ////////// Below are test codes:
 
-assertEqual(obj,'noma'); // PASSED
+// assertEqual(obj,'noma'); // PASSED

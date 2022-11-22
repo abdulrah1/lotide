@@ -32,6 +32,6 @@ const assertObjectsEqual = function(actual, expected) {
 };
 
 
-assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true);
+// assertObjectsEqual(eqObjects([1, 2, 3], [1, 2, 3]), true); // Pass (TRUE)
 
 

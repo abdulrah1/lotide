@@ -29,5 +29,5 @@ const countLetters = function(string) {
 
 
 
-assertEqual((countLetters('LHL Labs')), 7); // Passed
+// assertEqual((countLetters('LHL Labs')), 7); // Passed
 

@@ -11,7 +11,7 @@ const map = function(array, cb) {
 };
 
 const results = map(words, item => item[0]); // this is the callback function cb(item)
-console.log(results);
+//console.log(results);
 
 //////////////////////////////////////////////////////////////////////////////
 // Below is to test the map function:
@@ -43,5 +43,11 @@ const eqArrays = function(arr1, arr2) {
     }
   };
 
-assertArrayEqual(results, [ 'g', 'c', 't', 'm', 't' ]);
+
+
+
+
+  //////////////////// Below are test codes; for reference only
+  
+// assertArrayEqual(results, [ 'g', 'c', 't', 'm', 't' ]); // Passed
   

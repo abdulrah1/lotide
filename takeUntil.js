@@ -30,9 +30,9 @@ const takeUntil = function(array, callback) {
 /// Change the array and callback to test the code and further understand!
 
   const results = takeUntil(data1, num => num < -10); // if num of array is less than -10 then stop and give me the array.
-  console.log(results);
+  //console.log(results);
 
-  console.log('---');
+  //console.log('---');
 
 //const data2 = ["I've", "been", "to", "Hollywood", ",", "I've", "been", "to", "Redwood"];
 //const results = takeUntil(data2, x => x === ',');
@@ -79,7 +79,10 @@ const eqArrays = function(arr1, arr2) {
 
 
 
-  assertArrayEqual(results, [
-    1, 2, 5, 7, 2,
-   -1, 2, 4, 5
- ]); // PASSED
+
+  /////////////////////////// Below are test codes; for reference only!
+
+//   assertArrayEqual(results, [
+//     1, 2, 5, 7, 2,
+//    -1, 2, 4, 5
+//  ]); // PASSED

@@ -40,8 +40,8 @@ const eqObjects = function(obj1, obj2) {
 
 
 
-const ab = { a: "1", b: "2", c: '4'};
-const ba = { b: "2", a: "1", c: '5', };
-assertEqual(eqObjects(ab, ba), false); 
+// const ab = { a: "1", b: "2", c: '4'};
+// const ba = { b: "2", a: "1", c: '5', };
+// assertEqual(eqObjects(ab, ba), false); // Passed (fales === false)
 
 
