@@ -17,6 +17,9 @@ describe("#Codes That Pass", () => {
   it("expect ['Lighthouse'] to return for '['Hello', 'Lighthouse', 'Labs']'", () => {
     assert.deepEqual(middle(['Hello', 'Lighthouse', 'Labs']), ['Lighthouse']); // Pass
   });
+  it("expected [10, 25, 30, 40, 60] to be different than [30]", () => {
+    assert.notDeepEqual(middle([10, 25, 30, 40, 60]), [40]); // notEqual (notDeepEqual) will FAIL if actual EQUALs expected; it will PASS if not equal
+  })
 });
 
 // How to Do Codes that Fail?
